@@ -1,21 +1,21 @@
 # Personal Portfolio — Aaron Zhang
 
-A personal portfolio site built with **Next.js (App Router)**, **React 19**, **TypeScript**, and **Tailwind CSS v4**.
+**Live site:** https://project1-orpin-beta.vercel.app
 
-Submitted as Mini Project 1 for CSE552 — Full Stack Engineering at CSTU.
+Personal portfolio for Aaron Zhang — Bitcoin Layer 1 engineer, OpenSats grantee, and author of *Mastering Taproot*. Submitted by Mingjing Zhang as **Mini Project 1** for **CSE552 — Full Stack Engineering** at CSTU.
 
 ## Stack
 
 - Next.js 16 (App Router) with React 19
 - TypeScript
 - Tailwind CSS v4 (CSS-first config)
-- Turbopack (default in Next 16)
+- Deployed on Vercel
 
 ## Pages
 
-- `/` — landing page with tagline and CTAs
+- `/` — landing page with hero, tagline, and featured publication
 - `/about` — bio, skills, contact
-- `/projects` — interactive filter (`useState`) over a list of project cards
+- `/projects` — interactive `useState`-driven filter over a list of project cards
 
 ## Local Development
 
@@ -25,7 +25,3 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
-## Deployment
-
-Deployed to Vercel — see live URL above.
